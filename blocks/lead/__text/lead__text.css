@@ -1,0 +1,32 @@
+.lead__text {
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    align-self: flex-start;
+    margin: 0;
+    padding: 0 16px;
+  }
+
+
+@media screen and (min-width: 768px) {
+  .lead__text {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__text {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__text {
+    padding: 0 148px;
+  }
+}

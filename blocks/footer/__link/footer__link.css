@@ -1,0 +1,20 @@
+.footer__link {
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+@media screen and (min-width: 650px) {
+  .footer__link {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+
+

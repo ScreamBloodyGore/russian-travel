@@ -1,0 +1,29 @@
+.articles__image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px){
+  .articles__image {
+    max-height: 340px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .articles__image {
+    max-height: 440px;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .articles__image {
+    max-height: 460px;
+  }
+}
+
+
+
+
+
+

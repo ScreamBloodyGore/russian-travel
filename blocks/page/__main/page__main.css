@@ -1,0 +1,15 @@
+.page__main {
+  margin: 0 0 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .page__main {
+    margin: 0 0 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page__main {
+    margin: 0 0 92px;
+  }
+}

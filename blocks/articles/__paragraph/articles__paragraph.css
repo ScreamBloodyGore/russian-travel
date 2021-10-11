@@ -1,0 +1,9 @@
+.articles__paragraph {
+  margin: 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .articles__paragraph {
+    margin: 0;
+  }
+}

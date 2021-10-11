@@ -1,0 +1,35 @@
+.cover {
+  background: url(../../images/cover-background.jpg);
+  width: 100%;
+  max-width: 1184px;
+  min-height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    min-height: 640px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    min-height: 740px;
+    margin: 0 48px;
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+

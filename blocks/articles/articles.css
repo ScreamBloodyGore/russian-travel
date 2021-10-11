@@ -1,0 +1,34 @@
+/* .articles {
+  min-width: 320px;
+} */
+
+.articles {
+  min-width: 320px;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 50px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .articles {
+    padding: 0 24px 0;
+    row-gap: 73px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .articles {
+    padding: 0 48px 0;
+    row-gap: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .articles {
+    padding: 0 148px 0;
+  }
+}
+
+
+

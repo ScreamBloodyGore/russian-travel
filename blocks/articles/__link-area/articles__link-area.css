@@ -1,0 +1,15 @@
+.articles__link-area {
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin: 0 0 0 16px;
+  align-self: end;
+}
+
+@media screen and (min-width: 768px) {
+  .articles__link-area {
+    margin: 0;
+  }
+}
