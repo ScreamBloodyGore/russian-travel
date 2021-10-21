@@ -32,37 +32,61 @@
     }
   } */
 
+/* .lead__image {
+  width: 100%;
+  max-height: 480px;
+  max-width: 768px;
+  object-fit: cover;
+  margin: 0 0 8px;
+  grid-area: image;
+  justify-self: center;
+}
 
-
-
-
-
+@media screen and (min-width: 860px) {
   .lead__image {
-    width: 100%;
-    max-height: 480px;
-    max-width: 768px;
-    object-fit: cover;
-    margin: 0 auto 8px;
-    grid-area: image;
+    max-width: 100%;
   }
+}
 
-    @media screen and (min-width: 860px) {
-      .lead__image {
-        max-width: 100%;
-      }
-    }
+@media screen and (min-width: 1024px) {
+  .lead__image {
+    min-height: 580px;
+  }
+}
 
-    @media screen and (min-width: 1024px) {
-      .lead__image {
-        min-height: 580px;
-      }
-    }
+@media screen and (min-width: 1280px) {
+  .lead__image {
+    max-height: 615px;
+  }
+} */
 
-    @media screen and (min-width: 1280px) {
-      .lead__image {
-        max-height: 615px;
-      }
-    }
+.lead__image {
+  width: 100%;
+  max-height: 480px;
+  max-width: 768px;
+  object-fit: cover;
+  margin: 0 0 8px;
+  grid-area: image;
+  justify-self: center;
+}
+
+@media screen and (min-width: 860px) {
+  .lead__image {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__image {
+    min-height: 580px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__image {
+    max-height: 615px;
+  }
+}
 
 
 
