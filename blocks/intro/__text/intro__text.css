@@ -6,4 +6,11 @@
   font-size: 16px;
   line-height: 163%;
   margin: 0 0 34px;
+  grid-area: text;
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__text {
+    max-width: 690px;
+  }
 }
