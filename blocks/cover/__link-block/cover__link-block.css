@@ -11,7 +11,21 @@
   color: inherit;
 }
 
-.cover__link-block:hover + .cover__opacity-block{
-  opacity: .75;
-  transition-duration: 1s;
+.cover__link-block::before {
+  width: 100%;
+  height: 100%;
+  background: #2A2C2F;
+  opacity: .3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  content: '';
 }
+
+.cover__link-block:hover {
+  opacity: .8;
+  transition-duration: 1s;
+  background: #2A2C2F;
+}
+

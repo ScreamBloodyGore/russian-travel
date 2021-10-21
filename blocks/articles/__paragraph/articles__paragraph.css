@@ -1,5 +1,6 @@
 .articles__paragraph {
   margin: 0 16px;
+  grid-area: paragraph;
 }
 
 @media screen and (min-width: 768px) {

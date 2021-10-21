@@ -5,6 +5,7 @@
   min-height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -26,9 +27,6 @@
 @media screen and (min-width: 1280px) {
   .cover {
     min-height: 740px;
-    margin: 0 48px;
-    width: auto;
-    max-width: 100%;
   }
 }
 

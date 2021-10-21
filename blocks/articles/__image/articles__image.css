@@ -1,13 +1,10 @@
 .articles__image {
   width: 100%;
-  max-height: 400px;
+  max-width: 720px;
+  justify-self: center;
+  max-height: 340px;
   object-fit: cover;
-}
-
-@media screen and (min-width: 768px){
-  .articles__image {
-    max-height: 340px;
-  }
+  grid-area: image;
 }
 
 @media screen and (min-width: 1024px){

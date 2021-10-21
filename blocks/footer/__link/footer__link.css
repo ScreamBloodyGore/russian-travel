@@ -9,6 +9,11 @@
   color: inherit;
 }
 
+.footer__link:hover {
+  opacity: .8;
+  transition-duration: .3s;
+}
+
 @media screen and (min-width: 650px) {
   .footer__link {
     font-size: 16px;

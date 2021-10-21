@@ -5,17 +5,12 @@
   font-size: 14px;
   line-height: 14px;
   margin: 0;
-  grid-row: 3 / 4;
+  grid-area: author;
 }
 
 @media screen and (min-width: 650px) {
   .footer__author {
-    font-size: 14px;
     line-height: 16px;
-    /* justify-self: end;
-    align-self: end; */
-    grid-row: 1 / 2;
-    grid-column: 3 / 4;
   }
 }
 

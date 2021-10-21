@@ -3,18 +3,14 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 122%;
+  line-height: 22px;
   text-decoration-line: underline;
   color: #FFFFFF;
+  margin: 12px 0 0;
 }
 
 .articles__link:hover {
   cursor: pointer;
-}
-
-@media screen and (min-width: 1280px) {
-  .articles__link {
-    font-size: 18px;
-    line-height: 22px;
-  }
+  opacity: .8;
+  transition-duration: .3s;
 }
