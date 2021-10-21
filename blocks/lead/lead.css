@@ -50,7 +50,7 @@
 
 @media screen and (min-width: 768px) {
   .lead {
-    grid-template-columns: minmax(24px, 48px) minmax(720px, 928px) minmax(24px, 48px);
+    grid-template-columns: minmax(24px, 48px) minmax(700px, 928px) minmax(24px, 48px);
   }
 }
 
