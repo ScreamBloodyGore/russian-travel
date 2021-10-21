@@ -10,15 +10,15 @@
   <div class="page">
     <header class="page__header header">
       <div class="header__logo"></div>
-      <div class="header__lang-links">
-        <a href="#" class="header__lang-link">Ru</a>
-        <a href="#" class="header__lang-link">En</a>
-      </div>
+      <ul class="header__list">
+        <li class="header__list-item"><a href="#" class="header__lang-link header__lang-link_selected">Ru</a></li>
+        <li class="header__list-item"><a href="#" class="header__lang-link">En</a></li>
+      </ul>
     </header>
     <main class="page__main main">
         <section class="lead">
           <h1 class="lead__title">Путешествия по&nbsp;России</h1>
-          <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
+          <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
             <img src="images/__image.jpg" alt="плацкарт" class="lead__image">
           <p class="lead__text">ваша полка — верхняя</p>
         </section>
@@ -31,11 +31,11 @@
           в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые
           интересные места, достойные вашего отпуска.</p>
           <ul class="intro__list">
-            <li class="intro__list-item">Часовых поясов 11</li>
-            <li class="intro__list-item">Объектов природного наследия ЮНЕСКО 12</li>
-            <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО 16</li>
-            <li class="intro__list-item">Природных заповедников 105</li>
-            <li class="intro__list-item">Аэропортов 241</li>
+            <li class="intro__list-item"><span class="intro__list-item-span">Часовых поясов&ensp;</span>11</li>
+            <li class="intro__list-item"><span class="intro__list-item-span">Объектов природного наследия ЮНЕСКО&ensp;</span>12</li>
+            <li class="intro__list-item"><span class="intro__list-item-span">Объектов культурного наследия ЮНЕСКО&ensp;</span>16</li>
+            <li class="intro__list-item"><span class="intro__list-item-span">Природных заповедников&ensp;</span>105</li>
+            <li class="intro__list-item"><span class="intro__list-item-span">Аэропортов&ensp;</span>241</li>
           </ul>
         </section>
         <section class="gallery">
@@ -82,8 +82,8 @@
             <article class="articles__item">
               <h3 class="articles__title">Куршская коса</h3>
               <div class="articles__link-area">
-                <h4 class="articles__link-heading">URL</h4>
-                <a href="http://park-kosa.ru" target="blank" class="articles__link">park-kosa.ru</a>
+                <h4 class="articles__link-heading">url</h4>
+                <a href="http://park-kosa.ru" target="_blank" class="articles__link">park-kosa.ru</a>
               </div>
               <img src="images/articles/kosa.jpg" alt="Куршская коса" class="articles__image">
               <div class="articles__paragraph">
@@ -94,8 +94,8 @@
             <article class="articles__item">
               <h3 class="articles__title">Кольский</h3>
               <div class="articles__link-area">
-                <h4 class="articles__link-heading">URL</h4>
-                <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="blank" class="articles__link">National geographic</a>
+                <h4 class="articles__link-heading">url</h4>
+                <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" class="articles__link">National geographic</a>
               </div>
               <img src="images/articles/kolskiy.jpg" alt="Кольский" class="articles__image">
               <div class="articles__paragraph">
@@ -108,8 +108,8 @@
             <article class="articles__item">
               <h3 class="articles__title">Алтай</h3>
               <div class="articles__link-area">
-                <h4 class="articles__link-heading">URL</h4>
-                <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="blank" class="articles__link">Facebook</a>
+                <h4 class="articles__link-heading">url</h4>
+                <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" class="articles__link">Facebook</a>
               </div>
               <img src="images/articles/altay.jpg" alt="Алтай" class="articles__image">
               <div class="articles__paragraph">
@@ -121,8 +121,8 @@
             <article class="articles__item">
               <h3 class="articles__title">Зимний Байкал</h3>
               <div class="articles__link-area">
-                <h4 class="articles__link-heading">URL</h4>
-                <a href="https://vk.com/baikalmile" target="blank" class="articles__link">https://vk.com/baikalmile</a>
+                <h4 class="articles__link-heading">url</h4>
+                <a href="https://vk.com/baikalmile" target="_blank" class="articles__link">https://vk.com/baikalmile</a>
               </div>
               <img src="images/articles/baikal.jpg" alt="Зимний Байкал" class="articles__image">
               <div class="articles__paragraph">
@@ -135,8 +135,8 @@
             <article class="articles__item">
               <h3 class="articles__title">Карелия</h3>
               <div class="articles__link-area">
-                <h4 class="articles__link-heading">URL</h4>
-                <a href="http://vodlozero.ru" target="blank" class="articles__link">http://vodlozero.ru</a>
+                <h4 class="articles__link-heading">url</h4>
+                <a href="http://vodlozero.ru" target="_blank" class="articles__link">http://vodlozero.ru</a>
               </div>
               <img src="images/articles/karelya.jpg" alt="Карелия" class="articles__image">
               <div class="articles__paragraph">
@@ -147,24 +147,25 @@
             </article>
         </section>
         <section class="cover">
-          <a href="#" class="cover__link-block">
+          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link-block">
             <h2 class="cover__title">До Байкала
               «на&nbsp;собаках»</h2>
             <p class="cover__subtitle">По мотивам учебной темы
               о Транссибе — путешествие
               от столицы до Байкала на электричках.</p>
           </a>
-          <div class="cover__opacity-block"></div>
         </section>
     </main>
     <footer class="page__footer footer">
-      <ul class="footer__list">
-        <li class="footer__item"><a href="#" class="footer__link">Карты</a></li>
-        <li class="footer__item"><a href="#" class="footer__link">Погода</a></li>
-        <li class="footer__item"><a href="#" class="footer__link">Расписание</a></li>
-        <li class="footer__item"><a href="#" class="footer__link">Календарь</a></li>
-        <li class="footer__item"><a href="#" class="footer__link">Путешествия</a></li>
-      </ul>
+      <nav class="footer__nav">
+        <ul class="footer__list">
+          <li class="footer__item"><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a></li>
+          <li class="footer__item"><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a></li>
+          <li class="footer__item"><a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a></li>
+          <li class="footer__item"><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a></li>
+          <li class="footer__item"><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></li>
+        </ul>
+      </nav>
       <p class="footer__author">&copy; 2021. Username</p>
     </footer>
   </div>
