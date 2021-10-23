@@ -1,7 +1,9 @@
 .cover__link-block {
+  width: 100%;
+  height: 100%;
   flex: 1 1 auto;
   cursor: pointer;
-  z-index: 69;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -23,9 +25,9 @@
   content: '';
 }
 
-.cover__link-block:hover {
+.cover__link-block:hover::before {
   opacity: .8;
   transition-duration: 1s;
-  background: #2A2C2F;
 }
+
 
