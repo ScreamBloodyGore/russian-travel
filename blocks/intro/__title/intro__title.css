@@ -4,21 +4,36 @@
   font-weight: 900;
   font-size: 32px;
   line-height: 35px;
-  margin: 0 0 40px;
-  grid-area: title;
+  margin: 0 auto 40px;
+  max-width: 720px;
+  width: 100%;
+  box-sizing: border-box;
   }
 
   @media screen and (min-width: 768px) {
     .intro__title {
       font-size: 54px;
       line-height: 58px;
+      max-width: 928px;
+      margin: 0 auto 40px;
+      white-space: nowrap;
     }
   }
 
   @media screen and (min-width: 1024px) {
     .intro__title {
-      max-width: 690px;
+      max-width: 984px;
+      padding: 0 238px 0 0;
     }
   }
+
+  @media screen and (min-width: 1280px) {
+    .intro__title {
+      padding: 0 294px 0 0;
+    }
+  }
+
+
+
 
 

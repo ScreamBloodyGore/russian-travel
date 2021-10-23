@@ -1,14 +1,32 @@
 .intro__list {
   width: 100%;
+  max-width: 720px;
   list-style-type: none;
   padding: 0;
   margin: 0;
-  grid-area: list;
+  box-sizing: border-box;
+
+}
+
+@media screen and (min-width: 768px) {
+  .intro__list {
+    max-width: 928px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .intro__list {
-    max-width: 690px;
+    max-width: 984px;
+    padding: 0 238px 0 0;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .intro__list {
+    padding: 0 294px 0 0;
+  }
+}
+
+
+
 

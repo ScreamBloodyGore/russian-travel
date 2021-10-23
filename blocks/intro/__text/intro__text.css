@@ -1,16 +1,31 @@
 .intro__text {
   width: 100%;
+  max-width: 720px;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 163%;
-  margin: 0 0 34px;
-  grid-area: text;
+  margin: 0 auto 34px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__text {
+    max-width: 928px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .intro__text {
-    max-width: 690px;
+    max-width: 984px;
+    padding: 0 238px 0 0;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .intro__text {
+    padding: 0 294px 0 0;
+  }
+}
+
