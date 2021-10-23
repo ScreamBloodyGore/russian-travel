@@ -1,0 +1,16 @@
+.main__gallery {
+  margin: 0 0 64px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .main__gallery {
+    margin: 0 0 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main__gallery {
+    margin: 0 0 92px;
+  }
+}
+

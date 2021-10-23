@@ -1,0 +1,17 @@
+.main__articles {
+  margin: 0 0 66px;
+}
+
+@media screen and (min-width: 768px) {
+  .main__articles {
+    margin: 0 0 90px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main__articles {
+    margin: 0 0 92px;
+  }
+}
+
+
