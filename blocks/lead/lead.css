@@ -1,72 +1,14 @@
-/* .lead {
-  min-width: 288px;
-  max-width: 984px;
-  width: 100%;
+.lead {
   display: flex;
   flex-direction: column;
+  width: 100%;
   align-items: center;
   box-sizing: border-box;
 }
 
 @media screen and (min-width: 1024px) {
   .lead {
-    padding: 0 48px 0;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .lead {
-    padding: 0;
-  }
-} */
-
-/* .lead {
-  display: grid;
-  grid-template-rows: repeat(4, auto);
-  grid-template-columns: 1fr minmax(288px, 928px) 1fr;
-  grid-template-areas:
-    ". title ."
-    ". subtitle ."
-    ". image ."
-    ". text .";
-}
-
-@media screen and (min-width: 1024px) {
-  .lead {
-    grid-template-columns: minmax(48px, 1fr) minmax(928px, 984px) minmax(48px, 1fr);
-  }
-} */
-
-.lead {
-  display: grid;
-  grid-template-rows: repeat(4, auto);
-  grid-template-columns: minmax(16px, 24px) minmax(288px, 720px) minmax(16px, 24px);
-  grid-template-areas:
-    ". title ."
-    ". subtitle ."
-    "image image image"
-    ". text .";
-}
-
-@media screen and (min-width: 768px) {
-  .lead {
-    grid-template-columns: minmax(24px, 48px) minmax(700px, 928px) minmax(24px, 48px);
-  }
-}
-
-@media screen and (min-width: 860px) {
-  .lead {
-    grid-template-areas:
-    ". title ."
-    ". subtitle ."
-    ". image ."
-    ". text .";
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .lead {
-    grid-template-columns: minmax(48px, 1fr) minmax(928px, 984px) minmax(48px, 1fr);
+    padding: 0 48px;
   }
 }
 

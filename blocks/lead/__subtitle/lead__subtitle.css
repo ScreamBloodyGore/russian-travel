@@ -7,7 +7,7 @@
   line-height: 20px;
   text-align: center;
   margin: 0 auto 40px;
-  grid-area: subtitle;
+  /* grid-area: subtitle; */
 }
 
 @media screen and (min-width: 768px) {
